@@ -21,7 +21,7 @@ exp_app.listen(port);
 const createWindow = () => {
     const win = new BrowserWindow({
       width: 400,
-      height: 300,
+      height: 400,
       resizable: false,
       icon: path.join(__dirname, "build", 'icon.png')
     });
